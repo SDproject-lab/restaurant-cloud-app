@@ -1,0 +1,10 @@
+runtime: python312
+
+env_variables:
+  CLOUD_SQL_USERNAME: restaurantapp
+  CLOUD_SQL_PASSWORD: admin
+  CLOUD_SQL_DATABASE_NAME: restaurantapp
+  CLOUD_SQL_CONNECTION_NAME: restaurantapp-478812:europe-west2:restaurant-sql
+
+beta_settings:
+  cloud_sql_instances: restaurantapp-478812:europe-west2:restaurant-sql

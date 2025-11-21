@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>My Orders</h1>
+
+{% if orders %}
+    {% for order in orders %}
+        <div class="order-card">
+            <p><strong>Order ID:</strong> {{ order[0] }}</p>
+            <p><strong>Total:</strong> £{{ order[1] }}</p>
+            <p><strong>Date:</strong> {{ order[2] }}</p>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>You have no past orders.</p>
+{% endif %}
+
+{% endblock %}
