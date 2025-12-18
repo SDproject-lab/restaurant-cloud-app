@@ -1,4 +1,3 @@
-/* GENERAL PAGE SETTINGS */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +5,6 @@ body {
     background: #fafafa;
 }
 
-/* NAVBAR */
 nav {
     background: #222;
     color: white;
@@ -25,13 +23,11 @@ nav a:hover {
     color: #ffcc00;
 }
 
-/* PAGE TITLES */
 h1, h2 {
     text-align: center;
     margin-top: 30px;
 }
 
-/* CATEGORY HEADERS */
 .category-title {
     background: #333;
     color: white;
@@ -41,7 +37,6 @@ h1, h2 {
     border-radius: 8px;
 }
 
-/* MENU GRID */
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -49,7 +44,6 @@ h1, h2 {
     padding: 20px;
 }
 
-/* MENU ITEM CARD */
 .menu-item {
     background: white;
     padding: 15px;
@@ -58,7 +52,6 @@ h1, h2 {
     text-align: center;
 }
 
-/* ITEM IMAGE */
 .menu-item img {
     width: 100%;
     height: 180px;
@@ -66,7 +59,6 @@ h1, h2 {
     border-radius: 10px;
 }
 
-/* BUTTONS */
 button, .btn {
     background: #28a745;
     border: none;
